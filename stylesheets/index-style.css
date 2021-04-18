@@ -1,0 +1,256 @@
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Background Image */
+html,
+body {
+  background-image: url("../img/background-image.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-width: 325px;
+}
+
+/* Text Decoration*/
+a {
+  text-decoration: none;
+}
+
+/* Navigation Bar */
+#navbar {
+  background: white;
+  overflow: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+#navbar h1 a {
+  float: left;
+  color: black;
+  padding: 10px 0px;
+}
+#navbar ul {
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  color: black;
+  display: block;
+  padding: 10px 10px;
+}
+#navbar ul li a:hover,
+.current1 {
+  color: brown;
+  background: #ddd;
+}
+
+/* Container */
+.container {
+  max-width: 1920px;
+  padding: 0% 5%;
+  margin: auto;
+  overflow: auto;
+}
+
+/* Main Section */
+#main-section {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding-top: 15%;
+}
+.form-group {
+  padding: 7.5px 0px;
+}
+label {
+  font-size: 35px;
+}
+.btn {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background: firebrick;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  border: #ddd solid;
+}
+.btn:hover {
+  color: #ddd;
+  background: red;
+}
+input {
+  width: 75%;
+  max-width: 300px;
+  height: 30px;
+  border: solid #000 1px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  padding: 5px;
+}
+input:focus {
+  outline: none;
+  border: purple solid 2px;
+}
+
+/* Result */
+.result {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  max-width: 80%;
+  padding: 15px;
+}
+
+.weather-info {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  max-width: 80%;
+  padding: 15px;
+  font-weight: bold;
+}
+.weather-info h1 {
+  padding-bottom: 10px;
+}
+
+/* Colors */
+.color1 {
+  color: tomato;
+}
+.color2 {
+  color: green;
+}
