@@ -3,7 +3,7 @@
 ### Live Preview: http://weatherbynabil.hstn.me/
 
 ### Summary:
-This is a simple weather forecast web-app which uses some APIs to fetch forecast data from the [OpenWeatherMap](https://openweathermap.org).
+This is a simple weather forecast web app that uses some APIs to fetch forecast data from the [OpenWeatherMap](https://openweathermap.org).
 
 ### Features:
   * Displays the weather forecast of any location across the world
